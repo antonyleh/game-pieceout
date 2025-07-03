@@ -48,10 +48,7 @@ Le projet suit une architecture **MVC** (Modèle-Vue-Contrôleur) avec l'utilisa
 
 Le projet utilise un Makefile pour simplifier la compilation.
 
-bash
-# Cloner le repository
-git clone https://github.com/yourusername/piece-out.git
-cd piece-out
+```bash
 
 # Compiler le projet
 make
