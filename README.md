@@ -60,13 +60,6 @@ make
 make clean
 ```
 
-## 🚀 Utilisation
-
-```bash
-# Lancer le jeu
-./PieceOut
-```
-
 ### Contrôles
 
 - **Clic gauche** : Sélectionner et déplacer une pièce
