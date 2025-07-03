@@ -46,18 +46,21 @@ Le projet suit une architecture **MVC** (Modèle-Vue-Contrôleur) avec l'utilisa
 
 ### Compilation
 
-```bash
+Le projet utilise un Makefile pour simplifier la compilation.
+
+bash
 # Cloner le repository
 git clone https://github.com/yourusername/piece-out.git
 cd piece-out
 
-# Compiler avec g++
-g++ -std=c++11 *.cpp -lsfml-graphics -lsfml-window -lsfml-system -o PieceOut
-
-# Ou avec CMake
-mkdir build && cd build
-cmake ..
+# Compiler le projet
 make
+
+# Lancer l'exécutable
+./pieceOut
+
+# Nettoyer les fichiers objets et l'exécutable
+make clean
 ```
 
 ## 🚀 Utilisation
