@@ -16,7 +16,7 @@ Le projet suit une architecture **MVC** (Modèle-Vue-Contrôleur) avec l'utilisa
 
 ### Diagramme UML
 
-![Diagramme UML du projet Piece Out](diagramme-uml.png)
+![Diagramme UML du projet Piece Out](diagramme.png)
 
 *Le diagramme UML complet montre les relations entre les classes GameController, GameModel, Piece et ses dérivées, ainsi que l'implémentation des patrons Décorateur et Visiteur.*
 
@@ -89,7 +89,3 @@ make
 ## 📝 Licence
 
 Ce projet est développé dans le cadre d'un projet universitaire.
-
----
-
-*Projet réalisé dans le cadre du cours de Programmation Orientée Objet*
